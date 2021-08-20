@@ -1,0 +1,37 @@
+<?php
+	$metin="Her zaman gemicinin istediği rüzgar esmez.";
+	$dizi=explode(" ",$metin);
+	echo '<pre>';
+	print_r ($dizi);
+	echo'</prev>';
+?>
+
+
+
+
+
+<?php 
+
+	$icerik = "ali veli kırklareli emret komutanım.";
+	echo "İçerik : <br>" . $icerik . "<br><br>";
+	
+	// ilk karakterden 12. karaktere kadar alalım
+	$yeni_icerik = substr($icerik, 0, 12);
+	echo "Yeni İçerik : <br>" . $yeni_icerik . "<br><br>";
+	
+	// tersten 10 karakter alalım
+	$tersten_icerik = substr($icerik, -11);
+	echo "Tersten İçerik : <br>" . $tersten_icerik . "<br><br>";
+	
+?>
+
+
+
+
+
+
+<?php
+	$metin	= 'Substr Deneme Örnekleri';
+	$cikti = substr($metin, 0, 8);
+	echo $cikti;
+?>
