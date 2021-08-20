@@ -7,7 +7,7 @@
 
 |   |   |
 | ------ | ------ |
-| Konu Anlatım Videosu = | -  |
+| Konu Anlatım Videosu = | https://youtu.be/q8Q04hG7ZRk  |
 | BMDersleri  =  | https://www.youtube.com/bmdersleri |
 | Github Adresimiz =  | https://github.com/bmdersleri | 
 | Hazırlayan =  | Hüseyin ASİLTÜRK | 
@@ -77,7 +77,7 @@ Bir çok php projesinde doğrulama işlemleri sıkıntılı evrelerdir. Seçenek
 
  
 
- # Sunuç
+ # Sonuç
  
 - Framwork içerisinde bir basit kimlik doğrulama sistemi ile gelir.
 - Kolay bir mail gönderim altyapısı sağlar.
