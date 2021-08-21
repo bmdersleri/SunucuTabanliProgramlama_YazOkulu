@@ -1,4 +1,4 @@
-Konu Adı: PHP'de Oturum Yönetimi #33
+Konu Adı: PHP ile Veritabanı Kurma İşlemleri #39
 
 Youtube Kanalımız: BMDersleri 
 
@@ -11,5 +11,3 @@ Github Adresimiz: https://github.com/bmdersleri
 Konu ile ilgili Youtube Video Linki: https://www.youtube.com/watch?v=mBheZHgDb48
 
 Hazırlayan: Özcan Okut
-
-Ders içeriği: PHP ile Veritabanı Kurma İşlemleri
