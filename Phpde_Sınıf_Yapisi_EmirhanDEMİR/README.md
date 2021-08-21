@@ -10,5 +10,7 @@ BMDersleri =	https://www.youtube.com/bmdersleri
 
 Github Adresimiz =	https://github.com/bmdersleri
 
+Konu İle İlgili Video: https://www.youtube.com/watch?v=njQYvpQEYWs&list=PLwhxgey9h6nDxeLssKoTMKYp3s8DjMeJn&index=6
+
 Hazırlayan = Emirhan Demir
 
