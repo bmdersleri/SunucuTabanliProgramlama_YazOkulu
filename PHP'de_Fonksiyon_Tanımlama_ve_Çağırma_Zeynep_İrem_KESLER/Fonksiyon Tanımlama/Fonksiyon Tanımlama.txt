@@ -1,0 +1,8 @@
+**Fonksiyon Tanımlama**
+<?php
+
+function fonksiyonismi() 
+{
+   //kodlar buraya yazılacak
+}
+?>
