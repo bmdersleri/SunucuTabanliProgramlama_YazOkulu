@@ -1,0 +1,30 @@
+<?php
+
+class islem {
+    public $sonuc = 0;
+  
+    function topla($sayi) {
+       $this->sonuc = $this->sonuc + $sayi;
+       return $this;
+    }
+  
+    function carp($sayi) {
+       $this->sonuc = $this->sonuc * $sayi;
+       return $this;
+    }
+  
+    function sonuc() {
+       echo $this->sonuc;
+    }
+ }
+  
+ $x = new islem();
+ $x->topla(5)->carp(10)->sonuc();
+ // ekranda 50 yazar.
+  
+ // normal yolla yapsaydık her seferinde $x tekrar ifade etmemiz gerekirdi
+ // $x->topla(5);
+ // $x->carp(10);
+ // $x->sonuc();
+
+?>

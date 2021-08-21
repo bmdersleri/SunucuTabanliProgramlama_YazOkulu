@@ -1,0 +1,51 @@
+<?php
+
+class dersler {
+   public function yaz(){
+
+      echo 'merhaba <br/>';   
+
+   }
+
+   public function __construct(){
+
+      echo 'sunucu tabanlı programlama dersine hoşgeldiniz <br />';
+
+   }
+}
+
+$php = new dersler;
+$php -> yaz(); 
+
+?>
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+<?php
+
+class dersler {
+   
+   public function destruct(){
+
+      echo 'ders bitmiştir <br />';
+   }
+
+   public function yaz(){
+
+      echo 'merhaba <br/>';   
+
+   }
+
+   public function __construct(){
+
+      echo 'sunucu tabanlı programlama dersine hoşgeldiniz <br />';
+
+   }
+}
+
+$php = new dersler;
+$php -> yaz(); 
+
+?>
