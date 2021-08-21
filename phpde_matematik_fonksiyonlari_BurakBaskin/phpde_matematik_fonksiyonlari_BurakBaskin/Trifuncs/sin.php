@@ -1,0 +1,16 @@
+<?php
+    echo"Sinüs Fonksiyonu <br>";
+    echo('
+    <xmp>
+Programa gönderilen kodlar;
+
+    echo(sin(0) . "<br>");
+    echo(sin(-1) . "<br>");
+
+Alınan çıktılar;
+</xmp>');
+    echo(sin(0) . "<br>");
+    echo(sin(-1) . "<br>");
+    echo ('<br> <a href="trifuncs.php">Trigonometri Fonksiyonları</a>' . "<br>");
+    echo '<br> <a href="../index.php">Ana Sayfa</a>';
+?>

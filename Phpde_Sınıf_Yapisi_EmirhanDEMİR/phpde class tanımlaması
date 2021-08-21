@@ -1,0 +1,12 @@
+
+class personel
+{
+    public $adi;    // String değişken
+    public $soyadi; // String değişken
+    public $yasi;   // Integer değişken
+	
+    public function yaz_bilgi()
+    {
+        echo $this -> adi . " " . $this -> soyadi . " " . $this -> yasi . '<br/>';
+    }
+}
