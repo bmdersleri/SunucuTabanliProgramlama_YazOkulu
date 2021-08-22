@@ -1,0 +1,10 @@
+**Değer Döndürme**
+<?php
+
+function carp($sayi1, $sayi2)
+{
+	return $sayi1 * $sayi2;
+}
+echo carp(5,8) + carp(2,10) * carp(2,5); // 240
+
+?>
