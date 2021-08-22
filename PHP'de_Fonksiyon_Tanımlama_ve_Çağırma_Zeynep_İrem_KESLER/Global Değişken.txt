@@ -1,0 +1,27 @@
+**Fonksiyonlarda Global Değişken**
+<?php
+
+$x=10;
+
+function topla($y)
+{
+   return $x + $y;
+}
+
+topla(5) // Undefined variable
+
+?>
+|||||
+<?php
+
+$x=10; $y=5;
+
+function topla()
+{
+	global $x , $y;
+	return $x + $y;
+}
+
+echo topla() //15
+
+?>

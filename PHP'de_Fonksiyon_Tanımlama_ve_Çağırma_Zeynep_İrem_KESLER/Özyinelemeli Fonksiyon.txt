@@ -1,0 +1,13 @@
+**Özyineleme (recursive) Fonksiyonlar**
+<?php
+
+function faktoriyel ($i)
+{
+  if($i < 1)
+   return 1;
+  else
+  return $i * faktoriyel($i-1);
+}
+echo faktoriyel(5); //120
+
+?>

@@ -1,0 +1,16 @@
+**İç İçe Fonksiyon**
+<?php
+
+function topla($a,$b)
+{
+	function carp($a,$b)
+	{
+       echo "çarpma sonucu..:".($a*$b);
+	}
+	  echo "Toplama sonucu:".($a+$b);
+}
+topla(8,14); //22 
+
+carp(8,3);//24
+
+?>

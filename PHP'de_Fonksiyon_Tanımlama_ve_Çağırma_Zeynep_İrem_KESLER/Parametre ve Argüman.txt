@@ -1,0 +1,15 @@
+**Parametre ve Argüman Kavramı**
+<?php
+
+// Fonksiyon bildiriliyor  
+
+function topla($x,$y) // Burada x ve y parametre
+   {
+     return ($x+$y);
+   }
+    
+//Fonksiyon çağrılıyor 
+  
+$t = topla( 7,3 ); // Burada 7 ve 3 argüman
+
+?> 	

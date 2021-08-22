@@ -1,0 +1,14 @@
+**Neden Fonksiyonlar?**
+<?php
+
+function derece($f) {
+ 
+    $c = (5/9) * ($f-32);
+    return $c;
+}
+
+echo derece(50)."<br>"; // 10
+
+echo derece(80); // 26.6
+
+?>

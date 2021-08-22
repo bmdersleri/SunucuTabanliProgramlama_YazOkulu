@@ -1,0 +1,12 @@
+**Dizi Değer Döndürme**
+<?php
+
+function dizi()
+{
+	return ["Kitap", "Müzik", "Bilgisayar"];
+}
+list($a, $b, $c)=dizi();
+
+echo "$c kullanırım, $a okurum, ve $b dinlerim";
+
+?>	
