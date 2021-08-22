@@ -6,7 +6,7 @@
 
 |   |   |
 | ------ | ------ |
-| Konu Anlatım Videosu = | --  |
+| Konu Anlatım Videosu = | https://youtu.be/Y8CU9HLYJyc  |
 | BMDersleri  =  | https://www.youtube.com/bmdersleri |
 | Github Adresimiz =  | https://github.com/bmdersleri | 
 | Hazırlayan =  | Nasuh YÜCEL | 
