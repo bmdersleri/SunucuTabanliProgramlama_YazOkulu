@@ -1,0 +1,23 @@
+class uye {
+   public $isim; // herkese açık değer
+ 
+   function uye($isim) {
+      $this->isim = $isim;
+   }
+}
+ 
+$uye = new uye('emir');
+echo $uye->isim; // sınıf içerisindeki değişkene ulaştık.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class uye {
+   private $isim; // o sınıfa ait değer
+ 
+   function uye($isim) {
+      $this->isim = $isim;
+   }
+}
+ 
+$uye = new uye('emir');
+echo $uye->isim; // sınıf içerisindeki değişkene ulaşmaya çalışırsak hata alırız.

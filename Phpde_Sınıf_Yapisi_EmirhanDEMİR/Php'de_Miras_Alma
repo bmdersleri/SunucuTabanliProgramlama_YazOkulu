@@ -1,0 +1,50 @@
+<?php
+
+
+class uye {
+    public $ad;
+    public $soyad;
+  
+    function isim($ad, $soyad) {
+       $this->ad = $ad;
+       $this->soyad = $soyad;
+    }
+  
+    function isim_yaz() {
+       echo $this->ad . ' ' . $this->soyad;
+    }
+ }
+  
+  
+ class ogrenci extends uye { // uye sınıfını miras aldık
+    public $sinif;
+  
+    function sinif($sinif) {
+       $this->sinif = $sinif;
+    }
+  
+    function sinif_yaz() {
+       echo 'Sınıf: ' . $this->sinif;
+    }
+ }
+  
+ class ogretmen extends uye { // uye sınıfını miras aldık
+    public $ders;
+  
+    function ders($ders) {
+       $this->sinif = $ders;
+    }
+  
+    function ders_yaz() {
+       echo 'Ders: ' . $this->ders;
+    }
+ }
+  
+ $ogrenci = new ogrenci();
+ $ogrenci->isim('Ahmet', 'Yılmaz'); // bu metod uye sınıfından miras.
+ $ogrenci->sinif('12-A'); // bu ise ogrenci sınıfına ait metod.
+  
+ $ogretmen = new ogretmen();
+ $ogretmen->isim('Mehmet', 'Çetin'); // bu metod uye sınıfından miras.
+ $ogretmen->ders('Türkçe'); // bu ise ogretmen sınıfına ait metod.
+?>

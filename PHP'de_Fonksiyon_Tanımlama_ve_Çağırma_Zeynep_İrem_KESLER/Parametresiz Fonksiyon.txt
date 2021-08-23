@@ -1,0 +1,15 @@
+**Parametresiz Basit Bir Fonksiyon**	
+<?php
+
+function mesaj() 
+{ 
+
+echo "merhaba PHP dünyası "; 
+
+} 
+
+mesaj();  //fonksiyonu çağırma
+
+mesaj();  //fonksiyonu çağırma
+
+?> 	

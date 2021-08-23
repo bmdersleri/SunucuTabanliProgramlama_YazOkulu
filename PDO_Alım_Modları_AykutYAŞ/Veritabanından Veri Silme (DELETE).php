@@ -1,0 +1,1 @@
+$ekle =$db->exec("DELETE FROM test WHERE id=3) 

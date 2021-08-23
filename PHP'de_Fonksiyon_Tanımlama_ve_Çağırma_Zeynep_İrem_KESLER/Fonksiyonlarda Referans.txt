@@ -1,0 +1,12 @@
+**Fonksiyonlarda Referans**
+<?php
+
+$x = "Merhaba Dünya";	
+
+$y = &$x;
+
+echo $x;
+
+echo $y;
+
+?>
