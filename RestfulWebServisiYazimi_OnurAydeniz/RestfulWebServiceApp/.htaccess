@@ -1,0 +1,4 @@
+#gelen tüm istekleri index.php den karşılayalım. 
+RewriteEngine on
+RewriteRule ^users/$ index.php [QSA,L]
+RewriteRule ^users/([0-9+])/$ index.php?user_id=$1 [QSA,L]
