@@ -1,0 +1,54 @@
+PDO KURULUMU
+
+<?php
+
+if (extension_loaded("PDO")) {
+    echo "PDO kurulu.";
+} else {
+    echo "PDO kurulu değil.";
+}
+
+?>
+
+pdo veritabani baglantisi
+
+<?php
+
+$baglanti = new PDO("dsn", "username", "password", options);
+
+?>
+
+veri listeleme
+
+SELECT sutun1, sutun2,sutunN FROM tablo_adi
+
+PDO Veri Listeleme ( Koşullu )
+
+$id = '5';
+$query = $db->query("SELECT * FROM NAMES WHERE ID = '{$id}'")->fetch();
+if ( $query ){
+echo $query['SOYADI'];
+}
+
+
+PDO Veri Güncelleme  
+
+UPDATE tablo_adi SET sutun1 = yeni_deger, sutun2 = yeni_deger WHERE sutun_adi = guncellenecek_deger 
+
+
+PDO Veri Silme 
+
+DELETE FROM tablo_adi WHERE sutun_adi = silinecek_veri
+
+Örnek 
+
+<?php
+$sql = 'SELECT name, color, calories FROM fruit ORDER BY name';
+foreach ($conn->query($sql) as $row) {
+    print $row['name'] . "\t";
+    print $row['color'] . "\t";
+    print $row['calories'] . "\n";
+}
+?>
+
+
