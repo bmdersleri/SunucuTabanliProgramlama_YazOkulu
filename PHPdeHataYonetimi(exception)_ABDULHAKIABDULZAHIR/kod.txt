@@ -1,0 +1,120 @@
+        die() islemi
+
+<?php
+if(!file_exists("/temp/test.txt")){
+           die("file not found")
+		   }
+		   else{
+		   $file = fopen("/temp/test.txt","r");
+		   print "open file sucessfuly";
+		   }
+		   
+		   
+       Hata Tetikleme		   
+		   
+		   
+trigger_error (string $ileti[,int$tur = E_USER_NOICE]):bool 
+
+<?php 
+if (assert($divisor == 0)){
+trigger_error("sifir bir bolen olmaz",E_USER_ERROR);
+}
+
+?>
+       
+	   
+	    
+		HATA YAKALAMA VE FIRLATMA
+
+
+try{
+$param = 100;
+$harcamam = 150;
+if($harcamam> $ param)
+throw new Eception("paramiz harcamayi yetmiyor!");
+} catch(Eception $e) { 
+     echo $e->getMessage();
+}
+
+        
+		 HATA RAPORLAMA 
+		 
+
+<?php 
+
+// hata raporlamayi tatamen kapatalim
+
+error_reporting(0);
+
+// basit hatalari raporlayalim
+
+error_reporting(E_ERROR / E_WARNING / E_PARSE );
+
+//E_NOTICE DE Rporlansa iyi olur
+
+error_reporting(E_ERROR / E_WARNING / E_PARSE / E_NOTICE);
+
+// E_NOTICE haric butun hatalar raporlansin
+ 
+error_reporting(E_ALL ^ E_NOTICE);
+
+// tum php hatalarini raporliyalim 
+
+error_reporting(E_ALL);
+
+// tum php hatalarini raporliyalim 
+
+error_reporting(-1);
+
+// error_reporting(E_ALL) ile ayni
+
+int_set("error_reporting", E_ALL);
+
+?>
+
+
+           
+		   HATA KAYDETME
+		   
+
+<?php 
+class exception { 
+#ozellikler 
+
+protected $message = ' unknown exception'; #hata mesaji
+private $string;                           #__toString()onbelligi
+protected $code = 0 ;                      #hata kodu
+protected $file;                           #hatanin olusturdogu dosyanin ismi
+protected $line;                           #hatanin olusturdogu satirin numarasi
+protected $trace                           #hata ygiti 
+protected $previous                        #onceki hata 
+
+#Davranislar 
+publik function_construct($message = null, $code =0, Exception $previous = null);
+final private function __clone( );      
+final publik function getMessage( );
+final publik function getcode( );
+final publik function getfile( );
+final publik function getline( );
+final publik function getTrace( );
+final publik function getTraceAsString( );
+final publik function getPrevious( );		   
+		   
+
+
+                  HATA KAYDETME 
+
+<?php 
+hearder('content-type: text/html; charset=utf-8');
+$sayi = 5;
+$bolen = 0;
+ try
+ {
+ if (!@$sonuc = $sayi / $bolen)
+ throw new SaveException('sifira bolen hatasi.');
+ echo $sayi .' / ' . $bolen . ' = ' . $sonuc;
+ }
+ catch (SaveException $e) { 
+ echo 'Hata : ' . $e->getmesssage();
+ }
+ ?>	 
